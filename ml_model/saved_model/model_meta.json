@@ -1,0 +1,9 @@
+{
+  "_note": "This directory will contain trained model weights after running: python model.py train <train_dir> <val_dir>",
+  "model_version": "1.0.0-demo",
+  "img_size": 224,
+  "class_names": ["ALL", "AML"],
+  "architecture": "CNN + Squeeze-Excitation Attention",
+  "input_shape": [224, 224, 3],
+  "status": "awaiting_training"
+}

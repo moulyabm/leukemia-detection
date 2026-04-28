@@ -1,0 +1,22 @@
+# ALL/AML Leukemia Detection — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Web Framework ──────────────────────────────────────────────────────────────
+flask==3.0.3
+flask-cors==4.0.1
+werkzeug==3.0.3
+
+# ── ML / Numerical ────────────────────────────────────────────────────────────
+numpy==1.26.4
+Pillow==10.4.0
+
+# ── Optional: Full TensorFlow (comment out if not needed) ─────────────────────
+# tensorflow==2.16.1        # Full GPU/CPU training + inference
+# tensorflow-cpu==2.16.1    # CPU-only (smaller install)
+
+# ── Optional: scikit-learn for metrics ────────────────────────────────────────
+# scikit-learn==1.4.2
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+gunicorn==22.0.0           # Production WSGI server
